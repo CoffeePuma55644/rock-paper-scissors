@@ -4,9 +4,7 @@
 int main(void)
 {
 
-    int nombre1; // Déclaration des variables que je vais utiliser !
-    int nombre2;
-    int choix;
+    int nombre1, nombre2, choix; // Déclaration des variables que je vais utiliser !
 
     printf("Bienvenue dans le calculateur ! \n"); // Acceuil
     printf("Choisissez votre operation ! \n");
