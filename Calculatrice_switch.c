@@ -35,8 +35,17 @@ int main(void)
         break;
 
     case 4: // Division
-        printf("Le resultat de la division de %d et de %d vaut %d !\n", nombre1, nombre2, nombre1 / nombre2);
-        break;
+
+        if (nombre2 == 0) // Vérification si nombre2 n'est pas égal à 0 pour ne pas provoquer une erreur
+        {
+            printf("Impossible de diviser par 0...\n");
+            break;
+        }
+        else
+        {
+            printf("Le resultat de la division de %d et de %d vaut %d !\n", nombre1, nombre2, nombre1 / nombre2);
+            break;
+        }
 
     default:
         printf("Entrez une valeur valide");
