@@ -12,7 +12,7 @@ int main(void)
     printf("Entrez votre premier nombre.\n"); // Demande du premier nombre
     scanf("%d", &nombre1);
 
-    printf("1. Addition \n 2. Soustraction \n 3. Multiplication \n 4. Division \n"); // Choix de l'opération
+    printf("\n 1. Addition \n 2. Soustraction \n 3. Multiplication \n 4. Division \n"); // Choix de l'opération
     scanf("%d", &choix);
 
     printf("Entrez votre deuxieme nombre pour que le calcul s'éxécute !\n"); // Demande du deuxième nombre et exécution
